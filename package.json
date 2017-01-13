@@ -1,0 +1,22 @@
+{
+  "name": "xmldoc-extractor",
+  "version": "1.0.0",
+  "main": "core/xmldoc-extractor.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "~/.yarn-config/global/node_modules/.bin/jest --watch"
+  },
+  "dependencies": {
+    "folder-zip": "^0.0.5",
+    "node-dir": "^0.1.16",
+    "node-zip": "^1.1.1",
+    "unzip": "^0.1.11",
+    "zip": "^1.2.0",
+    "zip-folder": "^1.0.0"
+  },
+  "jest": {
+    "testRegex": ".*spec.js",
+    "testEnvironment": "node"
+  }
+}
